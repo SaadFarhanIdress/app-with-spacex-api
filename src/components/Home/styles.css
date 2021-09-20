@@ -1,0 +1,36 @@
+.greetings {
+    margin: 0px !important;
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+    text-align: center !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black !important;
+    width: 100% !important;
+    line-height: 1;
+    height: 100% !important;
+}
+
+body {
+    background-color: white;
+}
+
+.greetings-button {
+    border: 1px solid black !important;
+    background-color: white !important;
+    color: black !important;
+    margin: 2vw !important;
+    transition-duration: 300ms !important;
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+}
+
+.greetings-button:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.greetings-heading {
+    font-size: 8vw !important;
+    margin-bottom: 2vw !important;
+}

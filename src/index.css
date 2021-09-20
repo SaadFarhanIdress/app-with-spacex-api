@@ -1,13 +1,118 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.box {
+  border-radius: 10px !important;
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid black;
+  padding: 10px !important;
+  box-shadow: 10px 11px 12px #8a795d;
+  transition: transform .2s !important;
+  /* Animation */
+}
+
+.grid-box {
+  padding: 10px !important;
+}
+
+.rocket {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding: 0;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.heading {
+  font-size: 18px !important;
+  margin: 10px !important;
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+
+.profile-box {
+  margin: 20px;
+}
+
+.status {
+  display: flex;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.status-failed {
+  color: red;
+}
+
+.status-success {
+  color: green;
+}
+
+.flight-number {
+  padding-right: 5px;
+  color: black;
+}
+
+.title {
+  font-size: 5vw !important;
+  line-height: 1 !important;
+  color: black;
+  padding-top: 0px !important;
+}
+
+.desc {
+  color: black;
+  font-size: 1vw;
+}
+
+.image {
+  width: 14vw;
+  height: 28vw;
+  padding: 5px;
+  border-radius: 10px !important;
+}
+
+.image-grid {
+  padding: 0 !important;
+  margin: 10px !important;
+}
+
+.spinner-container {
+  justify-content: center;
+  display: flex;
+  align-self: center;
+}
+
+.spinner {
+  position: fixed;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.anchor {
+  color: black;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.anchor:hover {
+  text-decoration: underline;
 }
