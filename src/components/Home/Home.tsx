@@ -15,7 +15,7 @@ const Home = () => {
                 by <a href="http://www.github.com/SaadFarhanIdress">Saad Farhan</a>
                 <br />
                 Don't forget to star my repository :) <br />
-                Link:
+                Link:&nbsp;
                 <a href="https://github.com/SaadFarhanIdress/project-viib-ts-timer-app">
                     https://github.com/SaadFarhanIdress/project-viib-ts-timer-app
                 </a>
