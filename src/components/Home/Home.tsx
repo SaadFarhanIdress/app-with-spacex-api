@@ -1,15 +1,10 @@
-import { Button, Typography } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import './Home.css';
 
 const Home = () => {
     return (
         <div className='greetings'>
             <Typography variant='h1' className='greetings-heading'>Welcome to my project!</Typography>
-            <div>
-                <Button className='greetings-button'>ROCKETS</Button>
-                <Button className='greetings-button'>LAUNCHES</Button>
-                <Button className='greetings-button'>MISSIONS</Button>
-            </div>
             <p className="bottom-div">
                 Made with
                 <img
