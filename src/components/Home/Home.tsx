@@ -16,8 +16,8 @@ const Home = () => {
                 <br />
                 Don't forget to star my repository :) <br />
                 Link:&nbsp;
-                <a href="https://github.com/SaadFarhanIdress/project-viib-ts-timer-app">
-                    https://github.com/SaadFarhanIdress/project-viib-ts-timer-app
+                <a href="https://github.com/SaadFarhanIdress/app-with-spacex-api">
+                    https://github.com/SaadFarhanIdress/app-with-spacex-api
                 </a>
             </p>
         </div>
