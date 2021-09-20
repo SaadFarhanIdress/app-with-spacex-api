@@ -1,6 +1,5 @@
 import { Button, Typography } from '@material-ui/core';
-import React from 'react';
-import './styles.css';
+import './Home.css';
 
 const Home = () => {
     return (
@@ -11,6 +10,21 @@ const Home = () => {
                 <Button className='greetings-button'>LAUNCHES</Button>
                 <Button className='greetings-button'>MISSIONS</Button>
             </div>
+            <p className="bottom-div">
+                Made with
+                <img
+                    className="small-image"
+                    alt="Heart"
+                    src="https://cdn.iconscout.com/icon/free/png-256/heart-1767836-1502416.png"
+                />
+                by <a href="http://www.github.com/SaadFarhanIdress">Saad Farhan</a>
+                <br />
+                Don't forget to star my repository :) <br />
+                Link:
+                <a href="https://github.com/SaadFarhanIdress/project-viib-ts-timer-app">
+                    https://github.com/SaadFarhanIdress/project-viib-ts-timer-app
+                </a>
+            </p>
         </div>
     )
 }

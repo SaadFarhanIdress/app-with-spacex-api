@@ -2,7 +2,7 @@ import React from 'react'
 import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
 import { useStyles } from '../../styles/navBar';
 import { Link } from 'react-router-dom';
-import './styles.css';
+import './Navbar.css';
 
 const NavBar = () => {
 
